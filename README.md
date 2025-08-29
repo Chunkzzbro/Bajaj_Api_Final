@@ -34,10 +34,10 @@ The API should accept an array of data and return:
 
 ## 📂 Repository Structure
 bfhl-api/
-│── index.js # Main Express server
-│── package.json # Node.js dependencies & scripts
-│── .gitignore # Ignored files
-│── README.md # Documentation
+- index.js # Main Express server
+- package.json # Node.js dependencies & scripts
+- .gitignore # Ignored files
+- README.md # Documentation
 
 
 ---
