@@ -61,8 +61,8 @@ Clone the repository:
 The API is deployed on Render:
 👉 https://bajaj-finserve-api.onrender.com/
 
-📬 Example Requests
-✅ Example A
+# 📬 Example Requests
+## ✅ Example A
 
 Request
 
@@ -74,17 +74,94 @@ Request
 Response
 
 {
-  "is_success": true,
-  "user_id": "renjith_anil_06092004",
-  "email": "renjithaniltvm@gmail.com",
-  "roll_number": "22BAI1050",
-  "odd_numbers": ["1"],
-  "even_numbers": ["334", "4"],
-  "alphabets": ["A", "R"],
-  "special_characters": ["$"],
-  "sum": "339",
-  "concat_string": "Ra"
+    "is_success": true,
+    "user_id": "renjith_anil_06092004",
+    "email": "renjithaniltvm@gmail.com",
+    "roll_number": "22BAI1050",
+    "odd_numbers": [
+        "1"
+    ],
+    "even_numbers": [
+        "334",
+        "4"
+    ],
+    "alphabets": [
+        "A",
+        "R"
+    ],
+    "special_characters": [
+        "$"
+    ],
+    "sum": "339",
+    "concat_string": "Ra"
 }
 
 <img width="1128" height="977" alt="image" src="https://github.com/user-attachments/assets/fca7a6f8-0aa2-4564-82e9-b24c710dd9c5" />
+
+## ✅ Example B
+
+Request:
+{
+  "data": ["2", "a", "y", "4", "&", "-", "*", "5", "92", "b"]
+}
+
+Response:
+{
+    "is_success": true,
+    "user_id": "renjith_anil_06092004",
+    "email": "renjithaniltvm@gmail.com",
+    "roll_number": "22BAI1050",
+    "odd_numbers": [
+        "5"
+    ],
+    "even_numbers": [
+        "2",
+        "4",
+        "92"
+    ],
+    "alphabets": [
+        "A",
+        "Y",
+        "B"
+    ],
+    "special_characters": [
+        "&",
+        "-",
+        "*"
+    ],
+    "sum": "103",
+    "concat_string": "ByA"
+}
+
+<img width="1361" height="921" alt="image" src="https://github.com/user-attachments/assets/03e3aa65-c831-4623-9562-d7101bd70d6f" />
+
+## ✅ Example C
+
+Request:
+{
+  "data": ["A", "ABcD", "DOE"]
+}
+
+Response:
+{
+    "is_success": true,
+    "user_id": "renjith_anil_06092004",
+    "email": "renjithaniltvm@gmail.com",
+    "roll_number": "22BAI1050",
+    "odd_numbers": [],
+    "even_numbers": [],
+    "alphabets": [
+        "A",
+        "ABCD",
+        "DOE"
+    ],
+    "special_characters": [],
+    "sum": "0",
+    "concat_string": "EoDdCbAa"
+}
+
+<img width="899" height="923" alt="image" src="https://github.com/user-attachments/assets/812622ec-8c0c-45e9-b46a-a2ef99bc46e0" />
+
+
+
 
