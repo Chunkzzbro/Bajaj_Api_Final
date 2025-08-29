@@ -1,0 +1,15 @@
+{
+  "name": "bfhl-api",
+  "version": "1.0.0",
+  "description": "BFHL REST API (Express) for VIT assignment",
+  "main": "index.js",
+  "engines": { "node": "18.x" },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
