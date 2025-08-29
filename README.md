@@ -55,3 +55,33 @@ Clone the repository:
 
 ### API will run at:
 - http://localhost:3000/bfhl
+
+🌐 Hosted URL
+
+The API is deployed on Render:
+👉 https://bajaj-finserve-api.onrender.com/
+
+📬 Example Requests
+✅ Example A
+
+Request
+
+{
+  "data": ["a", "1", "334", "4", "R", "$"]
+}
+
+
+Response
+
+{
+  "is_success": true,
+  "user_id": "renjith_anil_06092004",
+  "email": "renjithaniltvm@gmail.com",
+  "roll_number": "22BAI1050",
+  "odd_numbers": ["1"],
+  "even_numbers": ["334", "4"],
+  "alphabets": ["A", "R"],
+  "special_characters": ["$"],
+  "sum": "339",
+  "concat_string": "Ra"
+}
