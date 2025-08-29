@@ -44,14 +44,14 @@ bfhl-api/
 
 ## ▶️ Run Locally
 Clone the repository:
-git clone https://github.com/Chunkzzbro/Bajaj_Api_Final.git
-cd Bajaj_Api_Final
+- git clone https://github.com/Chunkzzbro/Bajaj_Api_Final.git
+- cd Bajaj_Api_Final
 
-Install dependencies:
-npm install
+### Install dependencies:
+- npm install
 
-Start the server:
-npm start
+### Start the server:
+- npm start
 
-API will run at:
-http://localhost:3000/bfhl
+### API will run at:
+- http://localhost:3000/bfhl
